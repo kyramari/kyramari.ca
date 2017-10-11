@@ -41,16 +41,16 @@ nav ul {
   overflow: hidden;
 }
 
-.project-tile-main {
+.project-title-main {
   position: absolute;
   top: 45%;
   left: 5%;
   color: #fff;
   font-family: 'Archivo Black', sans-serif;
   font-size: 1em;
+  display: none;
 }
-
-.project-tile-main:hover {
+.project-main-link:hover .project-title-main {
   display: block;
 }
 
@@ -113,6 +113,10 @@ footer {
   color: #ed2a91;
 }
 
+footer .icon {
+  max-width: 40px;
+}
+
 
 
 @media only screen and (min-width: 25em) {
@@ -134,7 +138,7 @@ footer {
     color: #ed2a91;
   }
 
-  .project-tile-main {
+  .project-title-main {
     font-size: 2.5em;
   }
 
@@ -159,6 +163,10 @@ footer {
     margin-top: 3em;
   }
 
+  footer .icon {
+    max-width: 48px;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -175,7 +183,7 @@ footer {
     font-size: 2.5em;
   }
 
-  .project-tile-main {
+  .project-title-main {
     font-size: 3em;
   }
 
