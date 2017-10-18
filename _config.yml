@@ -1,3 +1,4 @@
 markdown : redcarpet
+permalink: pretty
 baseurl: /kyramari.ca
 exclude: ['README.md']
