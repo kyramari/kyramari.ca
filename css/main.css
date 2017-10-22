@@ -12,7 +12,7 @@ main h1 {
 }
 
 .wordmark {
-  max-width: 80px;
+  max-width: 120px;
 }
 
 .nav-a {
@@ -32,7 +32,23 @@ nav ul {
 }
 
 .project-bg-color {
+  background-color: #;
+}
+
+.bg-1 {
   background-color: #ed2a91;
+}
+
+.bg-2 {
+  background-color: #433a88;
+}
+
+.bg-3 {
+  background-color: #fbdb00;
+}
+
+.bg-4 {
+  background-color: #fff;
 }
 
 .project-image-main img:hover {
@@ -126,7 +142,7 @@ footer .icon {
 @media only screen and (min-width: 25em) {
 
   .wordmark {
-    max-width: 100px;
+    max-width: 140px;
   }
 
   .nav-a {
