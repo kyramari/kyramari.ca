@@ -6,11 +6,6 @@ html {
   font-weight: 300;
 }
 
-main h1 {
-  font-weight: 300;
-  font-family: 'Archivo Black', sans-serif;
-}
-
 .wordmark {
   max-width: 120px;
 }
@@ -40,15 +35,15 @@ nav ul {
 }
 
 .bg-2 {
-  background-color: #433a88;
+  background-color: #644c72;
 }
 
 .bg-3 {
-  background-color: #fbdb00;
+  background-color: #1d244a;
 }
 
 .bg-4 {
-  background-color: #fff;
+  background-color: #b6dec9;
 }
 
 .project-image-main img:hover {
@@ -120,17 +115,17 @@ h3 {
 
 
 footer {
-  background-color: #000;
+  background-color: #1d244a;
 }
 
 .contact h2 {
-  color: #fff;
+  color: #ed2a91;
   font-size: 1.5em;
   font-family: 'Archivo Black', sans-serif;
 }
 
 .contact p {
-  color: #ed2a91;
+  color: #b6dec9;
 }
 
 footer .icon {
@@ -142,7 +137,7 @@ footer .icon {
 @media only screen and (min-width: 25em) {
 
   .wordmark {
-    max-width: 140px;
+    max-width: 180px;
   }
 
   .nav-a {
@@ -190,6 +185,10 @@ footer .icon {
 }
 
 @media only screen and (min-width: 60em) {
+
+  .wordmark {
+    max-width: 200px;
+  }
 
   .nav-a {
     padding-right: 3em;
