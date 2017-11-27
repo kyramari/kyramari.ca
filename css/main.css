@@ -30,20 +30,11 @@ nav ul {
   background-color: #;
 }
 
-.bg-1 {
-  background-color: #ed2a91;
-}
-
-.bg-2 {
-  background-color: #36132f;
-}
-
-.bg-3 {
-  background-color: #1d244a;
-}
-
+.bg-1,
+.bg-2,
+.bg-3,
 .bg-4 {
-  background-color: #b6dec9;
+  background-color: black;
 }
 
 .project-image-main img:hover {
@@ -115,7 +106,7 @@ h3 {
 
 
 footer {
-  background-color: #36132f;
+  background-color: black;
 }
 
 .contact h2 {
@@ -124,8 +115,9 @@ footer {
   font-family: 'Archivo Black', sans-serif;
 }
 
-.contact p {
-  color: #b6dec9;
+.contact a {
+  color: #ed2a91;
+  text-decoration: none;
 }
 
 footer .icon {
@@ -221,7 +213,7 @@ footer .icon {
     font-size: 2.5em;
   }
 
-  .contact p {
+  .contact a {
     font-size: 1.5em;
   }
 
