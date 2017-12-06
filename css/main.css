@@ -60,8 +60,6 @@ nav ul {
   display: block;
 }
 
-
-
 .project-banner {
   position: relative;
   overflow: hidden;
@@ -89,6 +87,7 @@ h4,
 li {
   max-width: 700px;
   margin: auto;
+
 }
 
 h3 {
@@ -101,6 +100,12 @@ h3 {
 
 .case-study p {
   margin-bottom: 1em;
+}
+
+.left-arrow {
+  float: left;
+  overflow: hidden;
+  max-width: 50px;
 }
 
 
