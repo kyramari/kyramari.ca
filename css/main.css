@@ -89,15 +89,12 @@ nav ul {
   top: 50%;
 }
 
-.project-title {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
 
 .project-title h2 {
-  color: #fff;
+  padding-top: 1em;
+  color: #000;
   font-family: 'Archivo Black', sans-serif;
+
 }
 
 h3,
@@ -190,6 +187,17 @@ footer .icon {
   nav ul {
     margin-top: 3em;
   }
+
+  .project-title {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+.project-title h2 {
+  color: #fff;
+  padding-top: none;
+}
 
   footer .icon {
     max-width: 48px;
