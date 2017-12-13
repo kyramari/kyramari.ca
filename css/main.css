@@ -194,10 +194,11 @@ footer .icon {
     width: 100%;
   }
 
-.project-title h2 {
-  color: #fff;
-  padding-top: none;
-}
+  .project-title h2 {
+    color: #fff;
+    padding-top: none;
+    text-align: center;
+  }
 
   footer .icon {
     max-width: 48px;
