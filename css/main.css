@@ -21,7 +21,7 @@ main {
 .nav-a {
   text-decoration: none;
   color: #fff;
-  font-size: .7em;
+  font-size: .2em;
   padding-right: 1em;
   font-family: 'Archivo Black', sans-serif;
 }
@@ -32,6 +32,12 @@ nav ul {
 
 .current {
   color: #ed2a91;
+}
+
+h1 {
+  font-family: 'Archivo Black', sans-serif;
+  color: #fff;
+  background-color: #161616;
 }
 
 .project-bg-color {
