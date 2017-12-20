@@ -138,6 +138,12 @@ li {
 
 }
 
+.description p,
+h4 {
+  max-width: 700px;
+  margin: auto;
+}
+
 h3 {
   color: #ed2a91;
 }
@@ -283,6 +289,11 @@ footer .icon {
   h3,
   h4,
   li {
+    max-width: 900px;
+  }
+
+  .description p,
+  h4 {
     max-width: 900px;
   }
 
