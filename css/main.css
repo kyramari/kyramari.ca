@@ -175,6 +175,23 @@ footer .icon {
   max-width: 40px;
 }
 
+.black-bg {
+  background-color: #161616;
+}
+
+.btn {
+  background-color: #ed2a91;
+}
+
+.btn a {
+  color: white;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #161616;
+}
+
 
 
 @media only screen and (min-width: 25em) {
