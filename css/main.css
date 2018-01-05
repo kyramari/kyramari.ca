@@ -190,13 +190,10 @@ footer .icon {
 }
 
 .btn {
-  background-color: #ed2a91;
-  border: none;
-}
-
-.btn {
   color: white;
   font-family: 'Archivo Black', sans-serif;
+  background-color: #ed2a91;
+  border: none;
 }
 
 .btn:hover {
