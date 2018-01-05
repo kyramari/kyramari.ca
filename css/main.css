@@ -51,7 +51,7 @@ h1 {
   background-color: black;
 }
 
-.project-image-main img:hover {
+.project-image-main:hover .hover {
   opacity: .3;
   transition: .5s ease;
 }
@@ -191,7 +191,6 @@ footer .icon {
 
 .btn {
   color: white;
-  font-family: 'Archivo Black', sans-serif;
   background-color: #ed2a91;
   border: none;
 }
