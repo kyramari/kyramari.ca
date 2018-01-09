@@ -6,6 +6,15 @@ html {
   font-weight: 300;
 }
 
+.me {
+  max-width: 225px;
+  margin: auto;
+}
+
+.not-bold {
+  font-weight: 300;
+}
+
 body {
   background-color: #161616;
 }
