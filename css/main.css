@@ -7,7 +7,7 @@ html {
 }
 
 .me {
-  max-width: 225px;
+  max-width: 125px;
   margin: auto;
 }
 
@@ -217,7 +217,7 @@ footer .icon {
 @media only screen and (min-width: 25em) {
 
   .wordmark {
-    max-width: 180px;
+    max-width: 150px;
   }
 
   .nav-a {
@@ -256,6 +256,10 @@ footer .icon {
 }
 
 @media only screen and (min-width: 38em) {
+
+  .me {
+    max-width: 225px;
+  }
 
   nav {
     margin-bottom: 2em;
