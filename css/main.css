@@ -173,10 +173,15 @@ footer {
   font-family: 'Archivo Black', sans-serif;
 }
 
+.not-bold {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .contact a {
   color: #ed2a91;
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
 }
 
 footer .icon {
