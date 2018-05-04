@@ -6,6 +6,38 @@ html {
   font-weight: 300;
 }
 
+.motion-banner {
+  background-color: #161616;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.motion-bg {
+  background-color: #ed2a91;
+}
+
+.motion-banner:hover {
+  opacity: .3;
+  transition: .5s ease;
+}
+
+.motion-header {
+  font-family: 'Archivo Black', sans-serif;
+  color: #fff;
+  font-size: 1.5em;
+  line-height: 1em;
+  padding-bottom: 5px;
+
+}
+
+.motion-subheader  {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  background-color: #161616;
+  padding: none;
+  font-size: .7em;
+}
+
 .me {
   max-width: 125px;
   margin: auto;
@@ -259,6 +291,15 @@ footer .icon {
     padding-right: 10px;
   }
 
+  .motion-header {
+    font-size: 2em;
+    line-height: 1.5em;
+  }
+
+  .motion-subheader  {
+    font-size: 1em;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -308,6 +349,26 @@ footer .icon {
     padding-right: 15px;
   }
 
+  .motion-header {
+    font-size: 2em;
+    line-height: 1em;
+  }
+
+  .motion-subheader  {
+    font-size: 1em;
+  }
+
+  .motion-header {
+    font-size: 3em;
+    line-height: 1.5em;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+
+  .motion-subheader  {
+    font-size: 1em;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -354,6 +415,13 @@ footer .icon {
 
   .contact a {
     font-size: 1.5em;
+  }
+
+  .motion-header {
+    font-size: 4em;
+    line-height: 1.5em;
+    padding-left: 100px;
+    padding-right: 100px;
   }
 
 }
