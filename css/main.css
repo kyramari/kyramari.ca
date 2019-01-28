@@ -6,38 +6,6 @@ html {
   font-weight: 300;
 }
 
-.motion-banner {
-  background-color: #161616;
-  padding-left: 50px;
-  padding-right: 50px;
-}
-
-.motion-bg {
-  background-color: #ed2a91;
-}
-
-.motion-banner:hover {
-  opacity: .3;
-  transition: .5s ease;
-}
-
-.motion-header {
-  font-family: 'Archivo Black', sans-serif;
-  color: #fff;
-  font-size: 1.5em;
-  line-height: 1em;
-  padding-bottom: 5px;
-
-}
-
-.motion-subheader  {
-  font-family: 'Open Sans', sans-serif;
-  color: #fff;
-  background-color: #161616;
-  padding: none;
-  font-size: .7em;
-}
-
 .me {
   max-width: 125px;
   margin: auto;
@@ -93,7 +61,7 @@ h1 {
 }
 
 .project-image-main:hover .hover {
-  opacity: .3;
+  opacity: .5;
   transition: .5s ease;
 }
 
