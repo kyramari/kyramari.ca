@@ -61,7 +61,7 @@ h1 {
 }
 
 .project-image-main:hover .hover {
-  opacity: .5;
+  opacity: .9;
   transition: .5s ease;
 }
 
