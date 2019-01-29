@@ -6,6 +6,11 @@ html {
   font-weight: 300;
 }
 
+.nice-list {
+  display: block;
+  list-style-type: disc;
+}
+
 .me {
   max-width: 125px;
   margin: auto;
@@ -43,18 +48,10 @@ nav ul {
   color: #ed2a91;
 }
 
-.main-bg-color {
-  color: #161616;
-}
-
 h1 {
   font-family: 'Archivo Black', sans-serif;
   color: #fff;
   background-color: #161616;
-}
-
-.project-bg-color {
-  background-color: #;
 }
 
 .bg-1,
@@ -62,6 +59,10 @@ h1 {
 .bg-3,
 .bg-4 {
   background-color: black;
+}
+
+.bg-5 {
+  background-color: #161616;
 }
 
 .project-image-main:hover .hover {
@@ -222,8 +223,6 @@ footer .icon {
   color: #161616;
 }
 
-
-
 @media only screen and (min-width: 25em) {
 
   .wordmark {
@@ -271,7 +270,6 @@ footer .icon {
   .motion-subheader  {
     font-size: 1em;
   }
-
 }
 
 @media only screen and (min-width: 38em) {
@@ -340,7 +338,6 @@ footer .icon {
   .motion-subheader  {
     font-size: 1em;
   }
-
 }
 
 @media only screen and (min-width: 60em) {
@@ -389,11 +386,7 @@ footer .icon {
     font-size: 1.5em;
   }
 
-  .motion-header {
-    font-size: 4em;
-    line-height: 1.5em;
+  .nice-list{
     padding-left: 100px;
-    padding-right: 100px;
   }
-
 }
