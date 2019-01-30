@@ -6,11 +6,6 @@ html {
   font-weight: 300;
 }
 
-.nice-list {
-  display: block;
-  list-style-type: disc;
-}
-
 .me {
   max-width: 125px;
   margin: auto;
