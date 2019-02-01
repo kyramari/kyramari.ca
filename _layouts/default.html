@@ -8,12 +8,13 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Open+Sans:300,400,700" rel="stylesheet">
     <meta name="description" content="{{page.meta}}">
+    <meta property="og:image" content="http://kyramari.ca/images/wordmark-06.svg">
   </head>
   <body>
 
     <header class="gutter pad-t">
       <nav class="nav push-1-2">
-        <a href="{{site.baseurl}}/"><img class="wordmark pad-t" src="{{site.baseurl}}/images/wordmark-06.svg" alt=""></a>
+        <a href="{{site.baseurl}}/"><img itemprop="image" class="wordmark pad-t" src="{{site.baseurl}}/images/wordmark-06.svg" alt=""></a>
         <ul class="list-group-inline right">
           <li><a class="nav-a {% if page.url == "/" %}current{% endif %}" href="{{site.baseurl}}/">Portfolio</a></li>
           <li><a class="nav-a {% if page.url == "/about-me/" %}current{% endif %}" href="{{site.baseurl}}/about-me">About Me</a></li>
