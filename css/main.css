@@ -70,6 +70,7 @@ h1 {
 .project-image-main {
   position: relative;
   overflow: hidden;
+  background-color: #161616;
 }
 
 .project-title-main {
