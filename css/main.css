@@ -19,7 +19,7 @@ body {
 }
 
 main {
-  background-color: #161616;
+  background-color: #fff;
 }
 
 .wordmark {
@@ -62,12 +62,17 @@ h1 {
   background-color: #161616;
 }
 
-.project-image-main:hover .hover {
+.project-image-main-l:hover .hover {
   opacity: .25;
   transition: .5s ease;
 }
 
-.project-image-main {
+.project-image-main-l {
+  position: relative;
+  overflow: hidden;
+}
+
+.project-image-main-s {
   position: relative;
   overflow: hidden;
 }
@@ -317,25 +322,6 @@ footer .icon {
     padding-right: 15px;
   }
 
-  .motion-header {
-    font-size: 2em;
-    line-height: 1em;
-  }
-
-  .motion-subheader  {
-    font-size: 1em;
-  }
-
-  .motion-header {
-    font-size: 3em;
-    line-height: 1.5em;
-    padding-left: 70px;
-    padding-right: 70px;
-  }
-
-  .motion-subheader  {
-    font-size: 1em;
-  }
 }
 
 @media only screen and (min-width: 60em) {
